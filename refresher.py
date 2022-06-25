@@ -47,7 +47,7 @@ def load_file(data_path=DATA_PATH):
         print("Loaded!")
     except FileNotFoundError:
         loaded_file = fetch_page()
-        write_on_disk(loaded_file)
+        #write_on_disk(loaded_file)     #ativar pra agilizar debug
     except Exception as e:
         print(e)
 
