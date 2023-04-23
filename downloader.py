@@ -54,8 +54,8 @@ def load_file(data_path=DATA_PATH):
     return loaded_file
 
 
-def write_csv(dataframe, name='out'):
-    # Grava csv com nome dado ou out.csv por padrao
+def write_csv(dataframe, name='employers-out'):
+    # Grava csv com nome dado ou employers-out.csv por padrao
     filename = name + '.csv'
     dataframe.to_csv(DATA_PATH + filename)
     print("Arquivo salvo com nome " + filename)
