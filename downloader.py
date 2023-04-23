@@ -54,6 +54,15 @@ def load_file(data_path=DATA_PATH):
     return loaded_file
 
 
+def load_csv(file_name="out"):
+    try:
+        file_name += '.csv'
+        return pd.read_csv(DATA_PATH + file_name, index_col=[0])
+
+    except FileNotFoundError:
+        print("Arquivo [" + file_name + "] nao encontrado!")
+
+
 def write_csv(dataframe, name='employers-out'):
     # Grava csv com nome dado ou employers-out.csv por padrao
     filename = name + '.csv'
@@ -86,13 +95,35 @@ def sanitize(text):
     return text.strip().lower()
 
 
+def get_values(raw_value):
+    value = []
+    string_value = re.findall("USD\s*(\d{1,3}(?:,\d{2})*(?:\.\d{2})?)", raw_value)
+    if string_value:
+        dotted_value = [x.replace(',', '.') for x in string_value]
+        value = [float(x) for x in dotted_value]
+        value.sort()
+    return value
+
+
 def clean_income(raw_income):
+    output = []
+    income = get_values(raw_income)
+
     if sanitize(raw_income).find(sanitize('tips')) != -1:
-        return raw_income
-    income = re.findall("USD\s*(\d{1,3}(?:,\d{2})*(?:\.\d{2})?)", raw_income)
+        output.append(raw_income)
+    elif len(income) == 1:
+        output.append(income[-1])
+    elif len(income) > 1:
+        average = sum(income) / len(income)
+        output.append(income)
+        output.append((income[0] + average) / 2)
+        return output
+
     if income:
-        return income
-    return []
+        output.append(income[-1])
+        return output
+
+    return output, None
 
 
 def get_income(text):
@@ -100,15 +131,27 @@ def get_income(text):
         return clean_income(text[18:])
 
 
+def weekly_price_converter(raw_housing, value):
+    if sanitize(raw_housing).find(sanitize('por mês')) != -1:
+        return value[-1]/4
+    return value[-1]
+
+
 def clean_housing(raw_housing):
+    output = []
+    string_housing = re.findall("USD\s*\d{1,3}(?:,\d{2})*(?:\.\d{2})?[\w\W]*", raw_housing)
+    housing = get_values(raw_housing)
+
     if sanitize(raw_housing).find(sanitize('Não é oferecida pelo empregador')) != -1:
-        return raw_housing
+        output.append(raw_housing)
+    elif len(housing) >= 1:
+        output.append(string_housing)
 
-    housing = re.findall("USD\s*\d{1,3}(?:,\d{2})*(?:\.\d{2})?[\w\W]*", raw_housing)
-    if len(housing) == 1:
-        return housing[0]
+    if len(housing) >= 1:
+        output.append(weekly_price_converter(raw_housing, housing))
+        return output
 
-    return housing
+    return output, None
 
 
 def get_housing(text):
@@ -124,12 +167,20 @@ def get_employer_content(page_item, employer_data):
             income = get_income(content)
             housing = get_housing(content)
             if income:
-                employer_data[counter].append(income)
+                for entry in income:
+                    employer_data[counter].append(entry)
             elif housing:
-                employer_data[counter].append(housing)
+                for entry in housing:
+                    employer_data[counter].append(entry)
+        employer_data[counter].append(get_taxes(employer_data[counter][2]))
         counter += 1
 
     return employer_data
+
+
+def get_taxes(state):
+    taxes = load_csv('us_taxes_2023_table').to_dict()
+    return float(taxes['Combined Rate'][state.upper()].replace('%','')) + float(taxes['Combined Rate']['US'].replace('%',''))
 
 
 def main():
@@ -145,10 +196,14 @@ def main():
             employer_data = get_employer_header(page_item, state_sigle)
             employers += get_employer_content(page_item, employer_data)
 
+        for employer in range(len(employers)):
+            employers[employer].append([])
+            employers[employer].append(400)
+
         for i in employers:
             print(i)
 
-        new_data = pd.DataFrame(employers, columns=['nome', 'local', 'estado', 'payrate', 'housing'])
+        new_data = pd.DataFrame(employers, columns=['name', 'place', 'state', 'payrate', 'ex pay', 'housing', 'ex housing', 'taxes', 'job offer', 'living cost'])
 
         write_csv(new_data)
 
