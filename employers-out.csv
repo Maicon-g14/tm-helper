@@ -1,103 +1,103 @@
 ,name,place,state,payrate,ex pay,housing,ex housing,taxes,job offer,living cost
-0,The Ritz-Carlton,Lake Tahoe,ca,"Entre USD 15,00 + tips a USD 20,00 por hora",20.0,"['USD 140,00 por pessoa, por semana']",140.0,18.82,,400
-1,Sugar Bowl Resort,Norden,ca,"[15.0, 20.0]",16.25,['Não é oferecida pelo empregador. O participante será responsável por conseguir sua acomodação.'],,18.82,,400
-2,Resort at Squaw Creek,Olympic Valley,ca,"[16.0, 21.0]",17.25,"['USD 725,00 por pessoa, por mês']",181.25,18.82,,400
-3,Homewood Mountain Resort,Homewood,ca,15.0,15.0,"['USD 425,00 por pessoa, por mês. Mais detalhes na Job Description']",106.25,18.82,,400
-4,Bear Valley Resort,Bear Valley,ca,15.0,15.0,"['USD 500,00 por pessoa, por mês.']",125.0,18.82,,400
-5,Mammoth Mountain Resorts,Mammoth Lakes,ca,12.0,12.0,"['USD 215.00 por pessoa por semana + USD 500,00 de depósito caução']",500.0,18.82,,400
+0,The Ritz-Carlton,Lake Tahoe,ca,"Entre USD 15,00 + tips a USD 20,00 por hora",20.0,"USD 140,00 por pessoa, por semana",140.0,18.82,,400
+1,Sugar Bowl Resort,Norden,ca,"15.0, 20.0",16.25,Não é oferecida pelo empregador. O participante será responsável por conseguir sua acomodação.,,18.82,,400
+2,Resort at Squaw Creek,Olympic Valley,ca,"16.0, 21.0",17.25,"USD 725,00 por pessoa, por mês",181.25,18.82,,400
+3,Homewood Mountain Resort,Homewood,ca,15.0,15.0,"USD 425,00 por pessoa, por mês. Mais detalhes na Job Description",106.25,18.82,,400
+4,Bear Valley Resort,Bear Valley,ca,15.0,15.0,"USD 500,00 por pessoa, por mês.",125.0,18.82,,400
+5,Mammoth Mountain Resorts,Mammoth Lakes,ca,12.0,12.0,"USD 215.00 por pessoa por semana + USD 500,00 de depósito caução",500.0,18.82,,400
 6,June Mountain – Mammoth Resorts,June Lake,ca,14.0,14.0,,,18.82,,400
-7,Tahoe Donner,Lake Tahoe,ca,15.0,15.0,['USD 500 por pessoa por mês'],125.0,18.82,,400
-8,Rustico Ristorante,Telluride,co,"Entre USD 9,56 + tips a USD 12,54 por hora",12.54,"['USD 500,00 por pessoa, por mês.']",125.0,17.78,,400
+7,Tahoe Donner,Lake Tahoe,ca,15.0,15.0,USD 500 por pessoa por mês,125.0,18.82,,400
+8,Rustico Ristorante,Telluride,co,"Entre USD 9,56 + tips a USD 12,54 por hora",12.54,"USD 500,00 por pessoa, por mês.",125.0,17.78,,400
 9,Shop Ski Country,diversas cidades,co,21.0,21.0,,,17.78,,400
-10,Venga Venga,Snowmass Village,co,"USD 13,00 + tips por hora",13.0,['Não é oferecida pelo empregador. O participante será responsável por conseguir sua acomodação.'],,17.78,,400
-11,Winter Park Resort,Winter Park,co,19.0,19.0,"['USD 215,00 a USD 230,00 por pessoa, a cada duas semanas.']",230.0,17.78,,400
-12,YMCA of the Rockies – Snow Mountain Ranch,Granby,co,12.56,12.56,"['USD 200,00 por pessoa, por semana. Inclui 3 refeições por dia.']",200.0,17.78,,400
-13,Winter Park Mountain Lodge,Winter Park,co,"[13.5, 16.5]",14.25,"['USD 250,00 e USD 500,00 por pessoa, por mês, dependendo da ocupação.']",125.0,17.78,,400
-14,Viewline Resort Snowmass,Snowmass,co,"Entre USD 9,54 + tips  a USD 16,00 + tips por hora",16.0,"['USD 280,00 por pessoa, a cada duas semanas.']",280.0,17.78,,400
-15,Granby Ranch,Granby,co,"[14.0, 17.0]",14.75,"['USD 475,00 a USD 675,00 por mês, por pessoa, dependendo da acomodação.']",168.75,17.78,,400
-16,The Ritz-Carlton Club,Vail,co,"[16.5, 18.25]",16.9375,"['Não é oferecida pelo empregador, porém ele ajuda na procura.']",,17.78,,400
-17,Safeway Steamboat Springs,Steamboat Springs,co,16.0,16.0,"['USD 125,00 por pessoa, por semana']",125.0,17.78,,400
-18,Safeway Fraser,Fraser,co,16.0,16.0,"['USD 100,00 por pessoa, por semana.']",100.0,17.78,,400
-19,Grand Hyatt Vail,Vail,co,"[9.54, 17.0]",11.405,['USD 500 e USD 800 por mês'],200.0,17.78,,400
+10,Venga Venga,Snowmass Village,co,"USD 13,00 + tips por hora",13.0,Não é oferecida pelo empregador. O participante será responsável por conseguir sua acomodação.,,17.78,,400
+11,Winter Park Resort,Winter Park,co,19.0,19.0,"USD 215,00 a USD 230,00 por pessoa, a cada duas semanas.",230.0,17.78,,400
+12,YMCA of the Rockies – Snow Mountain Ranch,Granby,co,12.56,12.56,"USD 200,00 por pessoa, por semana. Inclui 3 refeições por dia.",200.0,17.78,,400
+13,Winter Park Mountain Lodge,Winter Park,co,"13.5, 16.5",14.25,"USD 250,00 e USD 500,00 por pessoa, por mês, dependendo da ocupação.",125.0,17.78,,400
+14,Viewline Resort Snowmass,Snowmass,co,"Entre USD 9,54 + tips  a USD 16,00 + tips por hora",16.0,"USD 280,00 por pessoa, a cada duas semanas.",280.0,17.78,,400
+15,Granby Ranch,Granby,co,"14.0, 17.0",14.75,"USD 475,00 a USD 675,00 por mês, por pessoa, dependendo da acomodação.",168.75,17.78,,400
+16,The Ritz-Carlton Club,Vail,co,"16.5, 18.25",16.9375,"Não é oferecida pelo empregador, porém ele ajuda na procura.",,17.78,,400
+17,Safeway Steamboat Springs,Steamboat Springs,co,16.0,16.0,"USD 125,00 por pessoa, por semana",125.0,17.78,,400
+18,Safeway Fraser,Fraser,co,16.0,16.0,"USD 100,00 por pessoa, por semana.",100.0,17.78,,400
+19,Grand Hyatt Vail,Vail,co,"9.54, 17.0",11.405,USD 500 e USD 800 por mês,200.0,17.78,,400
 20,Venture Sports,Vail,co,17.0,17.0,,,17.78,,400
-21,YMCA of the Rockies – Estes Park,Estes Park,co,12.56,12.56,"['USD 200,00 por pessoa, por semana. Inclui 3 refeições por dia.']",200.0,17.78,,400
+21,YMCA of the Rockies – Estes Park,Estes Park,co,12.56,12.56,"USD 200,00 por pessoa, por semana. Inclui 3 refeições por dia.",200.0,17.78,,400
 22,Aspen Snowmass,Aspen,co,20.0,20.0,,,17.78,,400
-23,The Paradise Inn,Key West,fl,"[16.0, 18.0]",16.5,"['USD 500,00 por pessoa, por mês']",125.0,17.02,,400
+23,The Paradise Inn,Key West,fl,"16.0, 18.0",16.5,"USD 500,00 por pessoa, por mês",125.0,17.02,,400
 24,Compass Hotel Anna Maria Sound,Bradenton,fl,12.0,12.0,,,17.02,,400
 25,Marlin Bay Resort and Marina,Marathon,fl,16.0,16.0,0,,17.02,,400
-26,Colorvision – Universal Orlando Resort,Orlando,fl,14.0,14.0,['Não é oferecida pelo empregador. O participante será responsável por conseguir sua acomodação.'],,17.02,,400
+26,Colorvision – Universal Orlando Resort,Orlando,fl,14.0,14.0,Não é oferecida pelo empregador. O participante será responsável por conseguir sua acomodação.,,17.02,,400
 27,Dairy Queen,Várias Cidades,ga,9.0,9.0,0,,17.4,,400
-28,McDonalds,Eleele,hi,15.0,15.0,['Não é oferecida pelo empregador.'],,14.440000000000001,,400
-29,McDonalds,Lahaina,hi,15.0,15.0,"['USD 450,00 por pessoa, por mês.']",112.5,14.440000000000001,,400
-30,North Shore Tacos,Hauula - Hi Pipeline,hi,USD 12 por hora + tips,12.0,"['USD 600,00 por mês + utilities']",150.0,14.440000000000001,,400
-31,Sun Valley Resort,Sun Valley,id,"[13.0, 16.0]",13.75,"['USD 70,00 por pessoa, por semana. Mais detalhes na Job Description']",70.0,16.02,,400
-32,Teton West Motel, Driggs,id,15.0,15.0,"['USD 300,00 por pessoa, por mês']",75.0,16.02,,400
-33,Wisp Resort,McHenry,md,13.25,13.25,"['USD 125,00 por semana por pessoa']",125.0,16.0,,400
-34,Ski Butternut,Great Barrington,ma,15.0,15.0,"['USD 80,00 por pessoa, por semana.']",80.0,16.25,,400
-35,Crystal Mountain Resort and Spa,Thompsonville,mi,"Entre USD 3,67+ tips a USD 15,00 por hora",15.0,"['USD 70,00 por semana, por pessoa']",70.0,16.0,,400
-36,Radisson Hotel Harborview,Duluth,mn,14.5,14.5,['USD 50.00 por pessoa por semana'],50.0,17.490000000000002,,400
-37,Crowne Plaza Hotel and Suites MSP Airport,Bloomington,mn,14.5,14.5,['USD 50.00 por pessoa por semana'],50.0,17.490000000000002,,400
-38,Lutsen Mountains Corporation,Lutsen,mn,9.5,9.5,"['USD 300,00 por pessoa, por mês + depósito de USD 300,00']",75.0,17.490000000000002,,400
-39,Caribou Highlands Lodge,Lutsen,mn,13.63,13.63,"['USD 100,00 por pessoa, por semana.']",100.0,17.490000000000002,,400
-40,Whitefish Lake Restaurant,White Fish,mt,"USD 9,20 por hora + tips BUSSER / USD 16.00 por hora para DISHWASHER",16.0,"['USD 700,00 por mês, por pessoa']",175.0,10.0,,400
-41,Diamond Peak,"Lake Tahoe, Incline Village ",nv,12.5,12.5,"['USD 225,00 por pessoa, por semana']",225.0,18.23,,400
-42,Adventure Suites,North Conway,nh,13.0,13.0,"['USD 100,00 por pessoa, por semana. Mais detalhes na Job Description;']",100.0,10.0,,400
-43,Loon Mountain Resort,Lincoln,nh,13.0,13.0,"['USD 110,00 por pessoa, por semana']",110.0,10.0,,400
-44,Attitash Resort,Bartlett,nh,13.0,13.0,"['USD 100,00 por pessoa por semana']",100.0,10.0,,400
-45,Indian Head Resort,Lincoln,nh,15.0,15.0,"['USD 80,00 por pessoa, por semana']",80.0,10.0,,400
-46,Appalachian Mountain Club Highland Center,Bretton Woods,nh,11.0,11.0,"['USD 45,00 por pessoa, por semana. Inclui 3 refeições por dia.']",45.0,10.0,,400
-47,Ragged Mountain,Danbury,nh,17.0,17.0,"['USD 75,00 por semana por pessoa.']",75.0,10.0,,400
-48,Ocean Casino Resort,Atlantic City,nj,14.0,14.0,"['USD 135,00 por pessoa, por semana.']",135.0,16.6,,400
-49,Vernon Waffle Cabin,"Vernon, dentro do Mt Creek Resort ",nj,"USD 13,00 por hora + tips",13.0,"['USD 125,00 por pessoa, por semana.']",125.0,16.6,,400
-50,Mountain Creek Resort,Vernon,nj,15.0,15.0,"['USD 300, 00 por pessoa, por mês. Mais detalhes na Job Description']",75.0,16.6,,400
-51,All Seasons Sports,Red River,nm,"USD 15,00 + tips por hora",15.0,"['USD 100,00 por pessoa, por semana. Mais detalhes na Job Description;']",100.0,17.72,,400
+28,McDonalds,Eleele,hi,15.0,15.0,Não é oferecida pelo empregador.,,14.440000000000001,,400
+29,McDonalds,Lahaina,hi,15.0,15.0,"USD 450,00 por pessoa, por mês.",112.5,14.440000000000001,,400
+30,North Shore Tacos,Hauula - Hi Pipeline,hi,USD 12 por hora + tips,12.0,"USD 600,00 por mês + utilities",150.0,14.440000000000001,,400
+31,Sun Valley Resort,Sun Valley,id,"13.0, 16.0",13.75,"USD 70,00 por pessoa, por semana. Mais detalhes na Job Description",70.0,16.02,,400
+32,Teton West Motel, Driggs,id,15.0,15.0,"USD 300,00 por pessoa, por mês",75.0,16.02,,400
+33,Wisp Resort,McHenry,md,13.25,13.25,"USD 125,00 por semana por pessoa",125.0,16.0,,400
+34,Ski Butternut,Great Barrington,ma,15.0,15.0,"USD 80,00 por pessoa, por semana.",80.0,16.25,,400
+35,Crystal Mountain Resort and Spa,Thompsonville,mi,"Entre USD 3,67+ tips a USD 15,00 por hora",15.0,"USD 70,00 por semana, por pessoa",70.0,16.0,,400
+36,Radisson Hotel Harborview,Duluth,mn,14.5,14.5,USD 50.00 por pessoa por semana,50.0,17.490000000000002,,400
+37,Crowne Plaza Hotel and Suites MSP Airport,Bloomington,mn,14.5,14.5,USD 50.00 por pessoa por semana,50.0,17.490000000000002,,400
+38,Lutsen Mountains Corporation,Lutsen,mn,9.5,9.5,"USD 300,00 por pessoa, por mês + depósito de USD 300,00",75.0,17.490000000000002,,400
+39,Caribou Highlands Lodge,Lutsen,mn,13.63,13.63,"USD 100,00 por pessoa, por semana.",100.0,17.490000000000002,,400
+40,Whitefish Lake Restaurant,White Fish,mt,"USD 9,20 por hora + tips BUSSER / USD 16.00 por hora para DISHWASHER",16.0,"USD 700,00 por mês, por pessoa",175.0,10.0,,400
+41,Diamond Peak,"Lake Tahoe, Incline Village",nv,12.5,12.5,"USD 225,00 por pessoa, por semana",225.0,18.23,,400
+42,Adventure Suites,North Conway,nh,13.0,13.0,"USD 100,00 por pessoa, por semana.",100.0,10.0,,400
+43,Loon Mountain Resort,Lincoln,nh,13.0,13.0,"USD 110,00 por pessoa, por semana",110.0,10.0,,400
+44,Attitash Resort,Bartlett,nh,13.0,13.0,"USD 100,00 por pessoa por semana",100.0,10.0,,400
+45,Indian Head Resort,Lincoln,nh,15.0,15.0,"USD 80,00 por pessoa, por semana",80.0,10.0,,400
+46,Appalachian Mountain Club Highland Center,Bretton Woods,nh,11.0,11.0,"USD 45,00 por pessoa, por semana. Inclui 3 refeições por dia.",45.0,10.0,,400
+47,Ragged Mountain,Danbury,nh,17.0,17.0,"USD 75,00 por semana por pessoa.",75.0,10.0,,400
+48,Ocean Casino Resort,Atlantic City,nj,14.0,14.0,"USD 135,00 por pessoa, por semana.",135.0,16.6,,400
+49,Vernon Waffle Cabin,"Vernon, dentro do Mt Creek Resort",nj,"USD 13,00 por hora + tips",13.0,"USD 125,00 por pessoa, por semana.",125.0,16.6,,400
+50,Mountain Creek Resort,Vernon,nj,15.0,15.0,"USD 300, 00 por pessoa, por mês. Mais detalhes na Job Description",75.0,16.6,,400
+51,All Seasons Sports,Red River,nm,"USD 15,00 + tips por hora",15.0,"USD 100,00 por pessoa, por semana.",100.0,17.72,,400
 52,Ruidoso Winter Park,Alto,nm,9.25,9.25,0,,17.72,,400
-53,Town House Lodge,Lake Placid,ny,15.0,15.0,['USD 150.00 por pessoa por semana'],150.0,18.52,,400
-54,Flip Burger,Lewiston,ny,"[7.0, 15.0]",9.0,"['USD 135,00 por pessoa, por semana. Mais detalhes na Job Description']",135.0,18.52,,400
-55,Flip Burger,Niagara Falls,ny,"[7.0, 15.0]",9.0,"['USD 135,00 por pessoa, por semana. Mais detalhes na Job Description']",135.0,18.52,,400
-56,Waffle Cabin,Highmount,ny,"USD 13,00 por hora + tips",13.0,"['USD 125,00 por pessoa, por semana.']",125.0,18.52,,400
-57,Cataloochee,Maggie Valley,nc,14.0,14.0,"['USD 80,00 por pessoa, por semana']",80.0,16.990000000000002,,400
-58,Kalahari Resorts,Sandusky,oh,13.0,13.0,"['USD 90,00 por pessoa, por semana.']",90.0,17.240000000000002,,400
-59,Spring Mountain Adventures,Spring Mount,pa,"[8.0, 12.0]",9.0,"['USD 25,00 por pessoa, por semana. Mais detalhes na Job Description;']",25.0,16.34,,400
-60,Nemacolin Woodlands Resort, Farmington,pa,"Entre USD 5,15 + tips a USD 14,00 por hora",14.0,"['USD 110,00 por pessoa, por semana']",110.0,16.34,,400
-61,Kalahari Resorts,Pocono Manor,pa,"[11.0, 12.0]",11.25,"['USD 120,00 por pessoa, por semana.']",120.0,16.34,,400
-62,Ocean House,Watch Hill,ri,14.0,14.0,"['USD 125,00 por pessoa, por semana']",125.0,17.0,,400
+53,Town House Lodge,Lake Placid,ny,15.0,15.0,USD 150.00 por pessoa por semana,150.0,18.52,,400
+54,Flip Burger,Lewiston,ny,"7.0, 15.0",9.0,"USD 135,00 por pessoa, por semana. Mais detalhes na Job Description",135.0,18.52,,400
+55,Flip Burger,Niagara Falls,ny,"7.0, 15.0",9.0,"USD 135,00 por pessoa, por semana. Mais detalhes na Job Description",135.0,18.52,,400
+56,Waffle Cabin,Highmount,ny,"USD 13,00 por hora + tips",13.0,"USD 125,00 por pessoa, por semana.",125.0,18.52,,400
+57,Cataloochee,Maggie Valley,nc,14.0,14.0,"USD 80,00 por pessoa, por semana",80.0,16.990000000000002,,400
+58,Kalahari Resorts,Sandusky,oh,13.0,13.0,"USD 90,00 por pessoa, por semana.",90.0,17.240000000000002,,400
+59,Spring Mountain Adventures,Spring Mount,pa,"8.0, 12.0",9.0,"USD 25,00 por pessoa, por semana.",25.0,16.34,,400
+60,Nemacolin Woodlands Resort, Farmington,pa,"Entre USD 5,15 + tips a USD 14,00 por hora",14.0,"USD 110,00 por pessoa, por semana",110.0,16.34,,400
+61,Kalahari Resorts,Pocono Manor,pa,"11.0, 12.0",11.25,"USD 120,00 por pessoa, por semana.",120.0,16.34,,400
+62,Ocean House,Watch Hill,ri,14.0,14.0,"USD 125,00 por pessoa, por semana",125.0,17.0,,400
 63,Dairy Queen,Florence,sc,9.0,9.0,0,,17.43,,400
-64,Safeway,Rapid City,sd,13.0,13.0,"['USD 125,00 por semana, por pessoa']",125.0,16.4,,400
-65,Wilderness at the Smokies,Sevierville,tn,"[11.0, 13.0]",11.5,"['USD 90,00 por pessoa, por semana.']",90.0,19.55,,400
-66,Gaylord Opryland,"Nashville, Tennessee ",tn,16.0,16.0,"['USD 225,00 por pessoa, por semana']",225.0,19.55,,400
-67,Ober Gatlinburg,Gatlinburg,tn,14.0,14.0,"['USD 100,00 a USD 125,00 por pessoa, por semana']",125.0,19.55,,400
-68,Kalahari Resorts,Round Rock,tx,"[11.0, 12.0]",11.25,"['USD 110,00 por pessoa, por semana.']",110.0,18.2,,400
-69,Deer Valley Resort,Park City,ut,"[11.0, 16.0]",12.25,"['USD 185,50 por pessoa, por semana.']",185.5,17.19,,400
+64,Safeway,Rapid City,sd,13.0,13.0,"USD 125,00 por semana, por pessoa",125.0,16.4,,400
+65,Wilderness at the Smokies,Sevierville,tn,"11.0, 13.0",11.5,"USD 90,00 por pessoa, por semana.",90.0,19.55,,400
+66,Gaylord Opryland,"Nashville, Tennessee",tn,16.0,16.0,"USD 225,00 por pessoa, por semana",225.0,19.55,,400
+67,Ober Gatlinburg,Gatlinburg,tn,14.0,14.0,"USD 100,00 a USD 125,00 por pessoa, por semana",125.0,19.55,,400
+68,Kalahari Resorts,Round Rock,tx,"11.0, 12.0",11.25,"USD 110,00 por pessoa, por semana.",110.0,18.2,,400
+69,Deer Valley Resort,Park City,ut,"11.0, 16.0",12.25,"USD 185,50 por pessoa, por semana.",185.5,17.19,,400
 70,Eagle Point Resort,Beaver,ut,"Entre USD 7,50 + tips a USD 13,00 a hora",13.0,,,17.19,,400
-71,Woodstock Inn & Resort,Woodstock,vt,"Entre USD 7,00 + tips a USD 14,00 por hora",14.0,"['USD 100,00 por pessoa, por semana.']",100.0,16.3,,400
-72,Killington Vacation Rentals,Killington,vt,18.0,18.0,"['USD 500,00 por pessoa, por mês. Mais detalhes na Job Description']",125.0,16.3,,400
+71,Woodstock Inn & Resort,Woodstock,vt,"Entre USD 7,00 + tips a USD 14,00 por hora",14.0,"USD 100,00 por pessoa, por semana.",100.0,16.3,,400
+72,Killington Vacation Rentals,Killington,vt,18.0,18.0,"USD 500,00 por pessoa, por mês. Mais detalhes na Job Description",125.0,16.3,,400
 73,The Lodge at Mount Snow,West Dover,vt,13.0,13.0,0,,16.3,,400
-74,Killington Market Inc.. Grocery Store,Killington,vt,"[14.0, 17.0]",14.75,,,16.3,,400
-75,Killington Mountain Lodge,Killington,vt,11.75,11.75,"['USD 50,00 por pessoa, por semana']",50.0,16.3,,400
-76,Dunkin Donuts,Várias cidades,vt,14.0,14.0,"['USD 150,00 por pessoa, por semana.']",150.0,16.3,,400
-77,The Lodge at Spruce Peak,Stowe,vt,15.0,15.0,"['USD 140,00 por pessoa, por semana.']",140.0,16.3,,400
-78,Great Wolf Lodge,Williamsburg,va,"[16.0, 17.0]",16.25,"['USD 125,00 por semana, por pessoa']",125.0,15.75,,400
-79,Sheraton Old Town Alexandria,Alexandria,va,15.0,15.0,"['USD 125,00 por pessoa, por semana.']",125.0,15.75,,400
-80,Cracker Barrel,Williamsburg,va,"USD 2,13 + tips a USD 16,00 por hora",16.0,"['USD 100,00 por pessoa, por semana.']",100.0,15.75,,400
-81,Snowshoe Mountain Resort,Snowshoe,wv,"[10.0, 15.0]",11.25,"['USD 300,00 a USD 600,00 por pessoa, por mês.']",150.0,16.55,,400
-82,Canaan Valley,Devis,wv,"[8.75, 10.0]",9.0625,,,16.55,,400
-83,Little Switzerland,Slinger,wi,14.0,14.0,"['USD 75,00 por pessoa, por semana']",75.0,15.43,,400
-84,The Vue Boutique Hotel and Restaurant,Wisconsin Dells,wi,12.0,12.0,"['USD 100,00 por pessoa, por semana.']",100.0,15.43,,400
-85,Great Wolf Lodge,Wisconsin Dells,wi,"[12.5, 15.5]",13.25,"['USD 95,00 por semana, por pessoa']",95.0,15.43,,400
+74,Killington Market Inc.. Grocery Store,Killington,vt,"14.0, 17.0",14.75,,,16.3,,400
+75,Killington Mountain Lodge,Killington,vt,11.75,11.75,"USD 50,00 por pessoa, por semana",50.0,16.3,,400
+76,Dunkin Donuts,Várias cidades,vt,14.0,14.0,"USD 150,00 por pessoa, por semana.",150.0,16.3,,400
+77,The Lodge at Spruce Peak,Stowe,vt,15.0,15.0,"USD 140,00 por pessoa, por semana.",140.0,16.3,,400
+78,Great Wolf Lodge,Williamsburg,va,"16.0, 17.0",16.25,"USD 125,00 por semana, por pessoa",125.0,15.75,,400
+79,Sheraton Old Town Alexandria,Alexandria,va,15.0,15.0,"USD 125,00 por pessoa, por semana.",125.0,15.75,,400
+80,Cracker Barrel,Williamsburg,va,"USD 2,13 + tips a USD 16,00 por hora",16.0,"USD 100,00 por pessoa, por semana.",100.0,15.75,,400
+81,Snowshoe Mountain Resort,Snowshoe,wv,"10.0, 15.0",11.25,"USD 300,00 a USD 600,00 por pessoa, por mês.",150.0,16.55,,400
+82,Canaan Valley,Devis,wv,"8.75, 10.0",9.0625,,,16.55,,400
+83,Little Switzerland,Slinger,wi,14.0,14.0,"USD 75,00 por pessoa, por semana",75.0,15.43,,400
+84,The Vue Boutique Hotel and Restaurant,Wisconsin Dells,wi,12.0,12.0,"USD 100,00 por pessoa, por semana.",100.0,15.43,,400
+85,Great Wolf Lodge,Wisconsin Dells,wi,"12.5, 15.5",13.25,"USD 95,00 por semana, por pessoa",95.0,15.43,,400
 86,Moosejaw Pizza and Dells Brewing. Restaurant,Wisconsin Dells,wi,10.0,10.0,,,15.43,,400
 87,Grand Geneva Resort & Spa,Lake Geneva,wi,12.0,12.0,75,,15.43,,400
-88,Chula Vista Resort & Water Park,Wisconsin Dells,wi,11.0,11.0,"['USD 95,00 por semana, por pessoa']",95.0,15.43,,400
-89,Kalahari Resorts, Wisconsin Dells,wi,10.0,10.0,"['USD 155,00 por pessoa, por semana.']",155.0,15.43,,400
-90,MNEG Concessions inside Mt Olympus,Wisconsin Dells,wi,10.0,10.0,"['USD 100 por pessoa, por semana.']",100.0,15.43,,400
-91,McDonalds,Wisconsin,wi,12.0,12.0,['USD 85 por pessoa por semana'],85.0,15.43,,400
-92,Cascade Mountain,Portage,wi,"[13.0, 14.0]",13.25,"['USD 70,00 por pessoa, por semana']",70.0,15.43,,400
-93,Mt Olympus,Wisconsin Dells,wi,"[11.0, 12.0]",11.25,"['USD 95,00 a USD 100,00 por pessoa, por semana.']",100.0,15.43,,400
-94,Wilderness,Wisconsin Dells,wi,"[12.0, 15.0]",12.75,"['USD 95,00 por pessoa, por semana.']",95.0,15.43,,400
-95,The Cloudveil,Jsckson,wy,18.55,18.55,"['USD 650,00 por pessoa, por mês.']",162.5,15.36,,400
+88,Chula Vista Resort & Water Park,Wisconsin Dells,wi,11.0,11.0,"USD 95,00 por semana, por pessoa",95.0,15.43,,400
+89,Kalahari Resorts, Wisconsin Dells,wi,10.0,10.0,"USD 155,00 por pessoa, por semana.",155.0,15.43,,400
+90,MNEG Concessions inside Mt Olympus,Wisconsin Dells,wi,10.0,10.0,"USD 100 por pessoa, por semana.",100.0,15.43,,400
+91,McDonalds,Wisconsin,wi,12.0,12.0,USD 85 por pessoa por semana,85.0,15.43,,400
+92,Cascade Mountain,Portage,wi,"13.0, 14.0",13.25,"USD 70,00 por pessoa, por semana",70.0,15.43,,400
+93,Mt Olympus,Wisconsin Dells,wi,"11.0, 12.0",11.25,"USD 95,00 a USD 100,00 por pessoa, por semana.",100.0,15.43,,400
+94,Wilderness,Wisconsin Dells,wi,"12.0, 15.0",12.75,"USD 95,00 por pessoa, por semana.",95.0,15.43,,400
+95,The Cloudveil,Jsckson,wy,18.55,18.55,"USD 650,00 por pessoa, por mês.",162.5,15.36,,400
 96,Virginian Lodge,Jackson,wy,"Entre USD 12,00 + tips e USD 19,00 por hora",19.0,,,15.36,,400
-97,Snake River Lodge,Jackson Hole,wy,"[18.0, 27.0]",20.25,"['USD 125,00 por pessoa, por semana. Mais detalhes na Job Description;']",125.0,15.36,,400
-98,Terra Hotel – At Teton Village,Jackson Hole,wy,17.0,17.0,"['USD 200,00 por pessoa, a cada duas semanas.']",200.0,15.36,,400
-99,Mountain Modern Motel,Jackson,wy,"[17.0, 18.0]",17.25,"['USD 650,00 por pessoa, por mês.']",162.5,15.36,,400
-100,Grand Targhee Resort,Alta,wy,"[16.0, 17.0]",16.25,"['USD 350,00 a USD 450,00 por pessoa, por mês.']",112.5,15.36,,400
-101,Four Seasons Resort Jackson Hole,Teton Village,wy,"Entre USD 10,36 + tips a USD 19,10 por hora",19.1,"['USD 750,00 a USD 900,00 por pessoa, por mês. Mais detalhes na Job Description.']",225.0,15.36,,400
+97,Snake River Lodge,Jackson Hole,wy,"18.0, 27.0",20.25,"USD 125,00 por pessoa, por semana.",125.0,15.36,,400
+98,Terra Hotel – At Teton Village,Jackson Hole,wy,17.0,17.0,"USD 200,00 por pessoa, a cada duas semanas.",200.0,15.36,,400
+99,Mountain Modern Motel,Jackson,wy,"17.0, 18.0",17.25,"USD 650,00 por pessoa, por mês.",162.5,15.36,,400
+100,Grand Targhee Resort,Alta,wy,"16.0, 17.0",16.25,"USD 350,00 a USD 450,00 por pessoa, por mês.",112.5,15.36,,400
+101,Four Seasons Resort Jackson Hole,Teton Village,wy,"Entre USD 10,36 + tips a USD 19,10 por hora",19.1,"USD 750,00 a USD 900,00 por pessoa, por mês. Mais detalhes na Job Description.",225.0,15.36,,400
