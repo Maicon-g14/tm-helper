@@ -22,7 +22,7 @@ def write_on_disk(file_to_save, data_path=DATA_PATH):
 
 def fetch_page(site_url=URL, sleep_time=WAIT_SECONDS):
     print("Will fetch data from: " + site_url)
-    service = Service(executable_path=r'G:\PortablePrograms\GeckoDriverPythonSelenium\geckodriver.exe')
+    service = Service(executable_path=r'F:\Portable Programs\geckodriver\geckodriver.exe')
     driver = webdriver.Firefox(service=service)
     driver.get(site_url)
 
